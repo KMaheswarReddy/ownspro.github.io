@@ -1,0 +1,386 @@
+body{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.block1{
+    /* width: 98.72vw; */
+    display: flex;
+    /* position: relative; */
+}
+.block1 .headerLeftPart {
+    flex: 7;
+}
+.headerRightPart {
+    flex: 5;
+}
+.headerRightPart img {
+    height: 460px;
+    width: 100%;   
+}
+.header{
+    margin-left: 30px;
+    display: flex;
+    position: absolute;
+    padding-top: 30px;
+}
+
+.logo1{
+    width:190px;
+    height:55px;
+    margin-right: 240px;
+
+}
+
+.login{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-right: 80px;
+}
+.login:hover{
+    color: #ea7e19;
+}
+.signup{
+    text-decoration: none;
+    color: rgb(243, 235, 235);
+    font-size: 14px;
+    padding: 10px 0px;
+    
+}
+
+
+.loginlinks{
+    display: flex;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    padding: 0px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 2px;
+    cursor: pointer;
+    width: 50px;
+    height:40px; 
+
+  }
+
+
+.text-animation{
+    font-size:20px;
+    text-align: left;
+    margin-left: 25px;
+    animation-name: rotatetext;
+    animation-duration: 12s;
+    position: relative;
+    margin-top: 100px;
+}
+
+@keyframes rotatetext {
+    0%, 16.666%, 33.333%, 50%, 66.666%, 83.333%, 100% {
+        opacity: 0;
+    }
+    8.333%, 25%, 41.666%, 58.333%, 75%, 91.666% {
+        opacity: 1;
+    }
+}
+
+
+.p1{
+    margin-left: 25px;
+    font-size: 25px;
+    color: rgb(76, 75, 75);
+}
+
+.enter-your-location{
+    color: rgb(103, 98, 98);
+    font-size: 25px;
+    margin-left: 25px;
+    display: flex;
+    max-width: 480px;
+}
+.location:hover{
+    box-shadow: 1px 1px 20px #f3bd91; ;
+}
+.location input{
+    width: 450px;
+    height: 30px;
+    border: none;
+    font-size: 18px;
+    padding: 15px 15px;
+    outline: none;
+    caret-color: #fc8019;
+
+}
+.enter-your-location:hover{
+    border: 1px solid #ea7e19;
+}
+
+.find-food{
+    white-space: nowrap;
+    background-color: #ea7e19;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 22px 35px;
+    width: 120px;
+    height:18px;  
+}
+
+.find-food a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.p2{
+    margin-left: 25px;
+    color: gray;
+    font-weight:inherit;
+}
+
+.span{
+    margin-left: 25px;
+    color: rgb(86, 85, 85);
+    font-weight: bolder;
+    font-size: 17px;
+    text-decoration: none;
+}
+.spy{
+    color: rgb(86, 85, 85);
+
+}
+.spy,.spa{
+    font-weight: bolder;
+    margin-left: 5px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.spa{
+    color: rgb(129, 122, 122);
+    
+
+}
+.spai{
+    color: rgb(112, 109, 109);
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: 25px;
+}
+
+/* .block1-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-93.30%);
+    width: 540px; 
+    height: 545px; 
+    background-image: url('imageside.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+
+
+.orderDetails{
+    /* display: flex; */
+    background-color: #2B1E16;
+    padding-top: 6px;
+    height: 70vh;
+    display: flex;
+}
+.orderDetails .orderDetailsChild {
+    flex: 4;
+}
+.orderDetails .orderDetailsChild article{
+    text-align: center;
+}
+.orderDetails .orderDetailsChild article p{
+    color: #958787;
+}
+.orderDetails .orderDetailsChild article h3{
+    color: white;
+}
+.orderDetails .orderDetailsChild div{
+    text-align: center;
+}
+/* .bagc-img{
+    margin-left: 10px;
+    padding-left: -20px;
+    float: left;
+} */
+.imgProps {
+    height: 210px;
+    width: 120px;
+}
+
+.pp{
+    color: rgb(216, 196, 196);
+    text-align: center;
+    margin-left: 20px;
+
+}
+.bagc-text1,h3{
+    text-align: center;    
+}
+.bagc-text{
+    margin-left: 10px;
+    float: left;
+    color: white;
+}
+.bagc-text1{
+    float: left;
+    color: white;
+    margin-left: 230px;
+    margin-right: 180px;
+}
+.bagc-text2
+{
+    color: white;
+}
+
+
+.restaurant{
+    background-color: rgb(209, 239, 239);
+    display: flex;
+    align-items: center;
+}
+.restaurantChild {
+    flex: 6;
+}
+.restaurantChildPocket {
+    padding-left: 20px;
+    flex: 4;
+}
+.restaurants{
+    font-size: 40px;
+    color: #282c3f;
+}
+.restaurantChild p{
+    font-size: 20px;
+    color: #7e808c;
+
+}
+
+.phones {
+    display: flex;
+    flex: 8;
+}
+.phone1{
+
+    height: 500px;
+    width: 380px;
+
+}
+
+.phone2{
+    height: 500px;
+    width: 380px;
+
+}
+
+
+.downloadApp{
+    background-color: rgb(237, 242, 243);
+    display: flex;
+    width: 98.72vw;
+}
+
+.applink{
+    margin-left: 120px;
+    flex: 6;
+}
+.appStoreNavigation {
+    flex: 6;
+    display: flex;
+}
+.appStoreNavigation {
+    flex: 6;
+}
+.playstore{
+    height: 65px;
+    width: 200px;
+    margin: 20px;
+}
+.linkApp {
+    cursor: pointer;
+}
+.applestore{
+    height: 65px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.spac{
+    font-size: 23px;
+    font-display: bold;
+    margin-left: 100px;
+}
+
+.bagc1{
+    background-color: #06050b;
+    color: white;
+    width: 98vw;
+    height: 90vh;
+    width: 98.72vw;
+
+   
+}
+.space0{
+    margin-left: 170px;
+    height: 40px;
+    width: 120px;
+    padding-top: 40px;
+}
+.table1{
+    color: rgb(162, 159, 159);
+    margin-left: 175px;
+}
+
+table a{
+    text-decoration: none;
+    color: rgb(162, 159, 159);
+}
+
+.company{
+    padding-left: 400px;
+}
+.Contact{
+    padding-left:80px;
+    padding-right: 0px;
+}
+
+
+.inputDeliver{
+    background-color: black;
+    border: 1px solid gray;
+}
+.deliver {
+    padding-left: 80px;
+}
+
+.legal {
+    padding-left:110px;
+    color: white;
+    font-size: 21px;
+    text-decoration: none;
+}
+    
+table td{
+    margin-top: 15px;
+    padding: 10px ;
+}
+
+.orderDetailsChild {
+
+}
+
+
+
+
